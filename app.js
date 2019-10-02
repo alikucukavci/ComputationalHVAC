@@ -9,6 +9,9 @@ const mongoose     = require('mongoose');
 const logger       = require('morgan');
 const path         = require('path');
 
+// WHEN INTRODUCING USERS DO THIS:
+// INSTALL THESE DEPENDENCIES: passport-local, passport, bcrypt, express-session
+// AND UN-COMMENT OUT FOLLOWING LINES:
 
 mongoose
   .connect('mongodb://localhost/server', {useNewUrlParser: true})
